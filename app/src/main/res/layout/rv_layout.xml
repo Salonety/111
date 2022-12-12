@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp">
+
+
+        <TableRow
+            android:background="#E3D4D4"
+            android:padding="10dp"
+            >
+            <TextView
+                android:id="@+id/roll_no_tv"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:textStyle="italic"
+                android:textColor="@color/black"
+                android:text="1" />
+
+            <TextView
+                android:id="@+id/name_tv"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:textStyle="italic"
+                android:textColor="@color/black"
+                android:text="AMRIT" />
+            <TextView
+                android:id="@+id/standard_tv"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:textStyle="italic"
+                android:textColor="@color/black"
+                android:text="98" />
+
+            <TextView
+                android:id="@+id/email"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:textStyle="italic"
+                android:textColor="@color/black"
+                android:text="ABC@WAU" />
+
+        </TableRow>
+
+
+
+</TableLayout>
